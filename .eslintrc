@@ -1,0 +1,39 @@
+{
+    "env": {
+        "node": true,
+        "browser": true,
+        "es6": true
+    },
+    "globals": {
+        "exampleGlobalVariable": true
+    },
+    "rules": {
+        "quotes": [
+            2,
+            "double",
+            {
+                "allowTemplateLiterals": true
+            }
+        ],
+        "eqeqeq": 1,
+        "brace-style": [
+            2,
+            "1tbs"
+        ],
+        "eol-last": 0,
+        "no-nested-ternary": 1,
+        "padded-blocks": [
+            1,
+            "never"
+        ],
+        "space-before-blocks": [
+            1,
+            "always"
+        ],
+        "arrow-spacing": 1,
+        "no-var": 1,
+        "no-trailing-spaces": 1,
+        "no-mixed-spaces-and-tabs": 1
+    },
+    "plugins": []
+}

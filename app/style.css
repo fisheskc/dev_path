@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo_sect {
+    background: orange;
+    height: 5em;
+}
+
+.mypanel {
+    border-radius: 8em;
+    background: #f7d494;
+    border: 0.20em solid #f5B32f;
+    height: 4.5em;
+    padding: 0.5em;
+}
+
+.mypanel:hover {
+    background: #f5B32f;
+}
+
+.panel {
+    margin-top: 0.75em;
+}
+
+.head {
+    color: #274f9b;
+    text-align: center;
+    line-height: 1.75em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+.btn-primary {
+    float: right;
+    position: relative;
+    top: -58px;
+    left: -10px;
+}
+
+.mybutton {
+    width: 50px;
+    height: 50px;
+    padding: 6px 0px;
+    line-height: 1.1 !important;
+    border-radius: 35px !important;
+    font-size: 2em !important;
+    background: #274f9b !important;
+}
